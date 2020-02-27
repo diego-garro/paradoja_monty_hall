@@ -18,7 +18,7 @@ su elección original o escoger la otra puerta? ¿Hay alguna diferencia?
 Esa pregunta generó un intenso debate. Como la respuesta correcta parece contradecir la
 intuición, es aparentemente una paradoja.
 
-"Tomado de Wikipedia". https://es.wikipedia.org/wiki/Problema_de_Monty_Hall
+*["Tomado de Wikipedia".](https://es.wikipedia.org/wiki/Problema_de_Monty_Hall)*
 
 ## Modo de uso
 
