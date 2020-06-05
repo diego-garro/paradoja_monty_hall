@@ -36,19 +36,23 @@ int simulaciones = 1000;
 
 void main() {
 
+  int posCoche, seleccion, puertaAbierta;
+  List<int> puertas;
+  String decision;
+
   for (int i = 0; i < simulaciones; i++) {
-    List<int> puertas = [1, 2, 3];
+    puertas = [1, 2, 3];
     print("Procesando iteración No. ${i+1}");
 
-    int posCoche = seleccionarPuerta(puertas);
-    int seleccion = seleccionarPuerta(puertas);
+    posCoche = seleccionarPuerta(puertas);
+    seleccion = seleccionarPuerta(puertas);
 
-    int puertaAbierta = abrirPuerta(puertas, posCoche, seleccion);
+    puertaAbierta = abrirPuerta(puertas, posCoche, seleccion);
 
     puertas.remove(puertaAbierta);
 
-    //String decision = deseaCambiar(decisiones);
-    String decision = "si";
+    //decision = deseaCambiar(decisiones);
+    decision = "si";
 
     if (decision == "si") {
       seleccion = cambiarPuerta(puertas, seleccion);

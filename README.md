@@ -2,7 +2,7 @@
 
 Estos son scripts que simulan la paradoja de **Monty Hall**.
 
-El problema de Monty Hall es un problema matemático de probabilidadbasado en el
+El problema de Monty Hall es un problema matemático de probabilidad basado en el
 concurso televisivo estadounidense Trato hecho (Let's Make a Deal). El problema
 fue bautizado con el nombre del presentador de dicho concurso: Monty Hall.
 
