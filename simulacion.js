@@ -41,7 +41,7 @@ function main() {
     let decision
 
     for (var i = 0; i < simulaciones; i++) {
-        puertas= [1, 2, 3]
+        puertas = [1, 2, 3]
         console.log(`Procesando iteración No. ${i+1}`)
 
         posCoche = seleccionarPuerta(puertas)
