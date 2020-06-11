@@ -22,15 +22,15 @@ intuición, es aparentemente una paradoja.
 
 ## Modo de uso
 
-Las simulaciones se realizaron en los lenguajes **Python**, **Dart** y **C++**, básicamente son el
-mismo programa hecho con estos lenguajes. Para poder usarlo y obtener los resultados deseados
-solo debe cambiar el valor de la variable **decision** de la siguiente manera:
+Las simulaciones se realizaron en los lenguajes **Python**, **Dart**, **C++** y **JavaScript**
+básicamente son el mismo programa hecho con estos lenguajes. Para poder usarlo y obtener los
+resultados deseados solo debe cambiar el valor de la variable **decision** de la siguiente manera:
 
 * Si desea que se tome una desición **random** (cambiar o no cambiar de puerta)
-  "descomente" la línea de código `decision = desea_cambiar()` en Python,
-  `decision = deseaCambiar(decisiones);` en Dart o C++ y comente la siguiente línea.
-* Si desea que la desición siempre sea "si" mantenga la linea `decision = "si"` en Python
-  o `decision = "si";` en Dart o C++ tal como está.
+  "descomente" la línea de código `decision = desea_cambiar()` en **Python**,
+  `decision = deseaCambiar(decisiones);` en **Dart**, **C++** o **JavaScript** y comente la siguiente línea.
+* Si desea que la desición siempre sea "si" mantenga la linea `decision = "si"` en **Python**
+  o `decision = "si";` en **Dart**, **C++** o **JavaScript** tal como está.
 * Si desea que la decisión siempre sea "no", cambia dicha línea por ese valor.
 
 Diviértete haciendo las pruebas o modificando el código. :D
