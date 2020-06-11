@@ -44,5 +44,4 @@ for i in range(simulaciones):
     if seleccion == pos_coche:
         ganes.append(1)
 
-print("Cantidad de jugadas: {}\nCantidad de ganes: {}".format(simulaciones, len(ganes)))
-       
+print(f"Cantidad de jugadas: {simulaciones}\nCantidad de ganes: {len(ganes)}")
